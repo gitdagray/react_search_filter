@@ -33,11 +33,6 @@ article {
   border-radius: 15px;
 }
 
-h2::first-letter,
-p::first-letter {
-  text-transform: uppercase;
-}
-
 img {
   border-radius: 15px;
   display: block;
