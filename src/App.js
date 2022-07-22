@@ -10,8 +10,6 @@ function App() {
   useEffect(() => {
     getPosts().then(json => {
       setPosts(json)
-      return json
-    }).then(json => {
       setSearchResults(json)
     })
   }, [])
